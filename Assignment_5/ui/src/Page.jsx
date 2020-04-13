@@ -11,8 +11,6 @@ function NavBar() {
       <NavLink exact to="/">Home</NavLink>
       {' | '}
       <NavLink exact to="/products">Product List</NavLink>
-      {' | '}
-      <NavLink exact to="/productview">Product View</NavLink>
     </nav>
   );
 }

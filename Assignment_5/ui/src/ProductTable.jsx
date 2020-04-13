@@ -6,7 +6,6 @@ const ProductRow = withRouter(({
 }) => {
   return (
     <tr>
-      <td>{product.id}</td>
       <td>{product.category}</td>
       <td>{product.product_name}</td>
       <td>{product.price}</td>
